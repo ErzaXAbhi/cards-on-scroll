@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #dadada;
+  border: 10px solid #000;
+  border-radius: 5px;
+  height: 370dvh;
+  font-family: "Urbanist", sans-serif;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  background-size: cover;
+  z-index: 1;
+}
+
+.hero {
+  background: url(./hero.jpg) center no-repeat;
+  background-position: fixed;
+  background-size: cover;
+  height: 92vh;
+
+  margin: 1rem;
+  visibility: hidden;
+}
+
+.hero h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 5rem;
+  color: #ffbf00;
+  font-size: 5rem;
+  font-weight: 900;
+  visibility: hidden;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  margin-top: 10rem;
+  height: 100dvh;
+}
+
+.slot-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.slot-2 {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-1 {
+  background: url(./card-1.jpg) center no-repeat;
+  background-size: cover;
+  height: 25rem;
+  width: 40rem;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.card-2 {
+  background: url(./card-2.jpg) center no-repeat;
+  background-size: cover;
+  height: 25rem;
+  width: 40rem;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.card-3 {
+  background: url(./card-3.jpg) center no-repeat;
+  background-size: cover;
+  height: 25rem;
+  width: 40rem;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.card-4 {
+  background: url(./card-4.jpg) center no-repeat;
+  background-size: cover;
+  height: 25rem;
+  width: 40rem;
+  border: 1px solid;
+  border-radius: 5px;
+}
